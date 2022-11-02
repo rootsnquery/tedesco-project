@@ -1,0 +1,6 @@
+Index(['lwd', 'lwu', 'me', 'rf', 'sf', 'st2', 'swd'], dtype='object')
+Start training
+Elastic Training time: 65.31997537612915s
+elastic best param {'alpha': 0.0, 'l1_ratio': 0.056411579027100256}
+elastic train r2 0.894761246509975
+elastic test r2 0.895538778797375
