@@ -1,0 +1,13 @@
+Hyperparamter options: {'max_depth': [8, 32], 'n_estimators': [300], 'learning_rate': [0.01, 0.1], 'gamma': <scipy.stats._distn_infrastructure.rv_frozen object at 0x2aaadd70bdc0>}
+Random Search fitting time:  26333.084663391113
+Best paramters and score: {'gamma': 0.05808361216819946, 'learning_rate': 0.1, 'max_depth': 8, 'n_estimators': 300} 0.3397748428531071
+[00:11:13] WARNING: ../src/learner.cc:627: 
+Parameters: { "scoring" } might not be used.
+
+  This could be a false alarm, with some parameters getting used by language bindings but
+  then being mistakenly passed down to XGBoost core, or some parameter actually being used
+  but getting flagged wrongly here. Please open an issue if you find any such cases.
+
+
+xgb r2 0.5238386601300408
+xgb test r2 0.3370370423350283

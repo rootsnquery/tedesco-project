@@ -1,0 +1,3 @@
+time for one fit: 871.5420722961426
+training R^2 :  0.828172
+test R^2 :  0.355956
