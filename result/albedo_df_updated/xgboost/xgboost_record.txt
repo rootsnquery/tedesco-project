@@ -1,0 +1,17 @@
+Start training
+Elastic Training time: 1398.9015250205994s
+elastic best param {'alpha': 0.0, 'l1_ratio': 0.056411579027100256}
+elastic train r2 0.20274074023906352
+elastic test r2 0.20065634236694296
+Random Search fitting time:  57293.153421640396
+Best paramters and score: {'gamma': 0.05808361216819946, 'learning_rate': 0.1, 'max_depth': 8, 'n_estimators': 100} 0.3615000732421424
+[06:28:22] WARNING: ../src/learner.cc:627: 
+Parameters: { "scoring" } might not be used.
+
+  This could be a false alarm, with some parameters getting used by language bindings but
+  then being mistakenly passed down to XGBoost core, or some parameter actually being used
+  but getting flagged wrongly here. Please open an issue if you find any such cases.
+
+
+xgb r2 0.3879029959842085
+xgb test r2 0.3606765845665836
